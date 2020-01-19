@@ -12,3 +12,12 @@ This project will train a neural language model using a multi-layered perceptron
      <img src="docs/network architecture.png" alt="model architecture" width="60%" height="60%">
      <br>Fig.1 model architecture
 </p>
+
+1.3 Result analysis
+------
+Creates a 2-D plot of the distributed representation space using an algorithm called t-SNE. Nearby points in the 2-D space are meant to correspond to nearby points in the 16-D word embedding space. From the learned model, we can create pictures of 2D visualization like figure 2.
+
+<p align="center">
+     <img src="docs/2D visualization.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.1 2D visualization
+</p>
