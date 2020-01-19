@@ -63,7 +63,22 @@ A skip connection in a neural network is a connection which skips one or more la
      <br>Fig.5 Validation Output of the Colorization Using Unet
 </p>
 
-3.Image Coloraztion 
+3.Words Translation from English to Pig-Latin 
 ===============
+3.1 Overview
+----------
+The task is to train an attention-based neural machine translation (NMT) model to translate words from English to Pig-Latin. 
+Pig Latin: It is a simple transformation of English based on the following rules (applied on a per-word basis):
+1. If the first letter of a word is a consonant, then the letter is moved to the end of the word, and the letters “ay” are added to the end. For instance, team → eamtay.
+2. If the first letter is a vowel, then the word is left unchanged and the letters “way” are added to the end: impress → impressway.
+3. In addition, some consonant pairs, such as “sh”, are treated as a block and are moved to the end of the string together: shopping → oppingshay.
+
+To translate a whole sentence from English to Pig-Latin, we simply apply these rules to each word indepen- dently: i went shopping → iway entway oppingshay.
+
+Since the translation to Pig Latin involves moving characters around in a string, we will use character-level recurrent neural networks for our model. Since English and Pig-Latin are structurally very similar, the translation task is almost a copy task; the model must remember each character in the input, and recall the characters in a specific order to produce the output.
+
+
+
+
 
 
