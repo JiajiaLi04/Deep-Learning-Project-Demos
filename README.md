@@ -34,7 +34,7 @@ By using the model to predict the next word, the result is:
 ===============
 2.1 Overview
 -------
-The task is to train a convolutional neural network known as image colorization. That is, given a gray scale image, we wish to predict the color at each pixel. This a difficult problem for many reasons, one of which being that it is ill-posed: for a single gray scale image, there can be multiple, equally valid colorings.
+The task is to train a convolutional neural network known as image colorization. That is, given a gray scale image, we wish to predict the color at each pixel. This a difficult problem for many reasons, one of which being that it is ill-posed: for a single gray scale image, there can be multiple, equally valid colorings. Here, we use three methods to predicte color and we can see that Unet is the best one and regression is the worst one.
 
 2.2 Colorization as Regression
 --------
@@ -63,6 +63,7 @@ A skip connection in a neural network is a connection which skips one or more la
      <br>Fig.5 Validation Output of the Colorization Using Unet
 </p>
 
-
+3.Image Coloraztion 
+===============
 
 
