@@ -93,6 +93,18 @@ The result of this model is as figure 7.
      <br>Fig.7 Result of Encoder-Decoder Model
 </p>
 
+3.3 Teacher Forcing
+----------
+A common practice used to train NMT models is to feed in the ground-truth token from the previous time step to condition the decoder output in the current step. At test time, we don’t have access to the ground-truth output sequence, so the decoder must condition its output on the token it generated in the previous time step, as shown  in figure 8.
 
+<p align="center">
+     <img src="docs/teacher forcing.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.8 Teacher Forcing Model
+</p>
+
+
+3.3 Gated Recurrent Unit (GRU) 
+----------
+Throughout the rest of the assignment, you will implement an attention-based neural machine translation model, and finally train the model and examine the results. The forward pass of a Gated Recurrent Unit is defined by the following equations:
 
 
