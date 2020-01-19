@@ -7,3 +7,8 @@ This project will train a multi-layered perceptron for natural language processi
 1.2 Network Architecture
 -------
 This project will train a neural language model using a multi-layered perceptron like figure 1. It receives 3 consecutive words as the input and aims to predict a distribution over the next word. The model is trained by using the cross-entropy criterion, which is equivalent to maximizing the probability it assigns to the target words in the training set. 
+
+<p align="center">
+     <img src="docs/nework architecture.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.1 Column 1-6 of Data-0500-0515
+</p>
