@@ -32,6 +32,12 @@ By using the model to predict the next word, the result is:
 
 2.Image Coloraztion 
 ===============
-1.1 Overview
+2.1 Overview
 -------
+The task is to train a convolutional neural network known as image colorization. That is, given a gray scale image, we wish to predict the color at each pixel. This a difficult problem for many reasons, one of which being that it is ill-posed: for a single gray scale image, there can be multiple, equally valid colorings.
+2.2 Colorization as Regression
+--------
+A simple approach is to frame it as a regression problem, where we build a model to predict the RGB intensities at each pixel given the gray scale input. In this case, the outputs are continuous, and so squared error can be used to train the model.
+
+
 
