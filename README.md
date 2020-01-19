@@ -103,8 +103,40 @@ A common practice used to train NMT models is to feed in the ground-truth token 
 </p>
 
 
-3.3 Gated Recurrent Unit (GRU) 
+3.4 Gated Recurrent Unit (GRU) 
 ----------
 Throughout the rest of the assignment, you will implement an attention-based neural machine translation model, and finally train the model and examine the results. The forward pass of a Gated Recurrent Unit is defined by the following equations:
 
+<p align="center">
+     <img src="docs/equation.png" alt="model architecture" width="60%" height="60%">
+     <br>GRU Equation
+</p>
+
+
+3.5 Implementing and Visualizing Attention 
+----------
+
+Attention allows a model to look back over the input sequence, and focus on relevant input tokens when producing the corresponding output tokens. For this task, attention can help the model remember tokens from the input, e.g., focusing on the input letter c to produce the output letter c.
+
+One of the benefits of using attention is that it allows us to gain insight into the inner workings of the model. By visualizing the attention weights generated for the input tokens in each decoder step, we can see where the model focuses while producing each output token. In this part of the assignment, you will visualize the attention learned by your model, and try to find interesting success and failure modes that illustrate its behavior.
+
+<p align="center">
+     <img src="docs/successfuly word pairs.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.9 Successful Word Pairs
+</p>
+
+<p align="center">
+     <img src="docs/failed word pairs.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.10 Failed Word Pairs
+</p>
+
+<p align="center">
+     <img src="docs/successful attention map.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.11 Successful Attention Map
+</p>
+
+<p align="center">
+     <img src="docs/failed attention map.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.12 Failed Attention Map
+</p>
 
