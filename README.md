@@ -209,4 +209,22 @@ The generator in CycleGAN has layers that implement three stages of computation:
      <br> Fig.18 Output Images of CycleGAN without the cycle-consistency loss in iteration 600
 </p>
 
+<p align="center">
+     <img src="docs/cyclegan result2.png" alt="model architecture" width="60%" height="60%">
+     <br> Fig.19 Output Images of CycleGAN with the cycle-consistency loss in iteration 600
+</p>
+
+<p align="center">
+     <img src="docs/cyclegan result3.png" alt="model architecture" width="60%" height="60%">
+     <br> Fig.20 Output Images of pre-trained CycleGAN without the cycle-consistency loss in iteration 100
+</p>
+
+<p align="center">
+     <img src="docs/cyclegan result4.png" alt="model architecture" width="60%" height="60%">
+     <br> Fig.21 Output Images of pre-trained CycleGAN without the cycle-consistency loss in iteration 100
+</p>
+
+we could see that the result with the cycle consistency loss is better than the result without the cycle consistency loss overall. The objectives are more clear in the result with the cycle consistency loss, and they are more similar with the original images in shape and small details compared with the result without cycle consistency loss.
+
+
 
