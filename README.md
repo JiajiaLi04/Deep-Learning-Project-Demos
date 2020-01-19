@@ -10,5 +10,5 @@ This project will train a neural language model using a multi-layered perceptron
 
 <p align="center">
      <img src="docs/network architecture.png" alt="model architecture" width="60%" height="60%">
-     <br>Fig.1 Column 1-6 of Data-0500-0515
+     <br>Fig.1 model architecture
 </p>
