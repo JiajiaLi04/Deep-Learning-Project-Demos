@@ -10,7 +10,7 @@ This project will train a neural language model using a multi-layered perceptron
 
 <p align="center">
      <img src="docs/network architecture.png" alt="model architecture" width="60%" height="60%">
-     <br>Fig.1 model architecture
+     <br>Fig.1 Model Architecture
 </p>
 
 1.3 Result Analysis
@@ -19,7 +19,7 @@ Creates a 2-D plot of the distributed representation space using an algorithm ca
 
 <p align="center">
      <img src="docs/2D visualization.png" alt="model architecture" width="60%" height="60%">
-     <br>Fig.2 2D visualization
+     <br>Fig.2 2D Visualization
 </p>
 
 By using the model to predict the next word, the result is:
@@ -28,3 +28,10 @@ By using the model to predict the next word, the result is:
 - Input: ‘life in the’. Output: ‘world’ has the highest probability(0.18037) to be the next word.
 - Input: ‘they could make’. Output: ‘it’ has the highest probability(0.59879) to be the next word.
 - Input: ‘we do nt ’. Output: ‘know’ has the highest probability(0.24101) to be the next word.
+
+
+2.Image Coloraztion 
+===============
+1.1 Overview
+-------
+
