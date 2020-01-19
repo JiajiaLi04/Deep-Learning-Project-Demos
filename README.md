@@ -77,10 +77,21 @@ To translate a whole sentence from English to Pig-Latin, we simply apply these r
 
 Since the translation to Pig Latin involves moving characters around in a string, we will use character-level recurrent neural networks for our model. Since English and Pig-Latin are structurally very similar, the translation task is almost a copy task; the model must remember each character in the input, and recall the characters in a specific order to produce the output.
 
-3.2 Encoder-Decoder Models
+3.2 Encoder-Decoder Model
 ----------
+A common architecture used for seq-to-seq problems is the encoder-decoder model, composed of two RNNs, as figure 6.
 
+<p align="center">
+     <img src="docs/encoder decoder model.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.6 Encoder-Decoder Model
+</p>
 
+The result of this model is as figure 7.
+
+<p align="center">
+     <img src="docs/encoder decoder model.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.6 result of encoder decoder model
+</p>
 
 
 
