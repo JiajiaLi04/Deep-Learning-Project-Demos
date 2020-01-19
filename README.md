@@ -1,4 +1,4 @@
-1. A Multi-layer Percetron for Natural Language Processing 
+1.A Multi-layer Percetron for Natural Language Processing 
 ===============
 Overview
 -------
