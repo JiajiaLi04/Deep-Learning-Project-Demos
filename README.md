@@ -24,7 +24,7 @@ Creates a 2-D plot of the distributed representation space using an algorithm ca
 
 By using the model to predict the next word, the result is:
 - Input: ‘government of united’. Output: ‘state’ has the highest probability(0.47774) to be the next word.
-2) Input: ‘city of new’. Output: ‘york’ has the highest probability(0.98458) to be the next word.
-3) Input: ‘life in the’. Output: ‘world’ has the highest probability(0.18037) to be the next word.
-4) Input: ‘they could make’. Output: ‘it’ has the highest probability(0.59879) to be the next word.
-5) Input: ‘we do nt ’. Output: ‘know’ has the highest probability(0.24101) to be the next word.
+- Input: ‘city of new’. Output: ‘york’ has the highest probability(0.98458) to be the next word.
+- Input: ‘life in the’. Output: ‘world’ has the highest probability(0.18037) to be the next word.
+- Input: ‘they could make’. Output: ‘it’ has the highest probability(0.59879) to be the next word.
+- Input: ‘we do nt ’. Output: ‘know’ has the highest probability(0.24101) to be the next word.
