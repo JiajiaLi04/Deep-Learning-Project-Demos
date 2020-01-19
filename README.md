@@ -89,8 +89,8 @@ A common architecture used for seq-to-seq problems is the encoder-decoder model,
 The result of this model is as figure 7.
 
 <p align="center">
-     <img src="docs/encoder decoder model.png" alt="model architecture" width="60%" height="60%">
-     <br>Fig.6 result of encoder decoder model
+     <img src="docs/result of encoder decoder model.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.7 Result of Encoder-Decoder Model
 </p>
 
 
