@@ -167,7 +167,7 @@ The generator of the DCGAN, which consists of a sequence of transpose convolu- t
 
 
 <p align="center">
-     <img src="docs/algorithm 1.png" alt="model architecture" width="60%" height="60%">
+     <img src="docs/algorithm 1.png" alt="model architecture" width="100%" height="100%">
      <br> 
 </p>
 
