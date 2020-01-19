@@ -45,7 +45,7 @@ A simple approach is to frame it as a regression problem, where we build a model
      <br>Fig.3 Validation Output of the Color Regression
 </p>
 
-2.2 Colorization as Classification
+2.3 Colorization as Classification
 --------
 We will select a subset of 24 colors and frame colorization as a pixel-wise classification problem, where we label each pixel with one of 24 colors. The 24 colors are selected using k-means clusteringa over colors, and selecting cluster centers.The validation output of the color classification is as figure 4.
 
@@ -54,7 +54,7 @@ We will select a subset of 24 colors and frame colorization as a pixel-wise clas
      <br>Fig.4 Validation Output of the Color Classification
 </p>
 
-2.2 Colorization Using Skip Connection
+2.4 Colorization Using Skip Connection
 --------
 A skip connection in a neural network is a connection which skips one or more layer and connects to a later layer. Add a skip connection from the first layer to the last, second kater to the second last, etc. That is, the final convolution should have both the output of the previous layer and the initial gray scale input as input. A common type of skip-connection is introduced by Unet.  The validation output of the colorization using Unet is as figure 5.
 
@@ -62,6 +62,7 @@ A skip connection in a neural network is a connection which skips one or more la
      <img src="docs/color Unet.png" alt="model architecture" width="60%" height="60%">
      <br>Fig.5 Validation Output of the Colorization Using Unet
 </p>
+
 
 
 
