@@ -121,7 +121,7 @@ Attention allows a model to look back over the input sequence, and focus on rele
 One of the benefits of using attention is that it allows us to gain insight into the inner workings of the model. By visualizing the attention weights generated for the input tokens in each decoder step, we can see where the model focuses while producing each output token. In this part of the assignment, you will visualize the attention learned by your model, and try to find interesting success and failure modes that illustrate its behavior.
 
 <p align="center">
-     <img src="docs/successfuly word pairs.png" alt="model architecture" width="60%" height="60%">
+     <img src="docs/successful word pairs.png" alt="model architecture" width="60%" height="60%">
      <br>Fig.9 Successful Word Pairs
 </p>
 
