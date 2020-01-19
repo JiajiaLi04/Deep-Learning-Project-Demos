@@ -79,7 +79,7 @@ Since the translation to Pig Latin involves moving characters around in a string
 
 3.2 Encoder-Decoder Model
 ----------
-A common architecture used for seq-to-seq problems is the encoder-decoder model, composed of two RNNs, as figure 6.
+A common architecture used for seq-to-seq problems is the encoder-decoder model, composed of two RNNs, as figure 6. The encoder RNN compresses the input sequence into a fixed-length vector, represented by the final hidden state. The decoder RNN conditions on this vector to produce the translation, character by character. The model is trained via a cross-entropy loss between the decoder distribution and ground-truth at each time step.
 
 <p align="center">
      <img src="docs/encoder decoder model.png" alt="model architecture" width="60%" height="60%">
@@ -89,7 +89,7 @@ A common architecture used for seq-to-seq problems is the encoder-decoder model,
 The result of this model is as figure 7.
 
 <p align="center">
-     <img src="docs/result of encoder decoder model.png" alt="model architecture" width="60%" height="60%">
+     <img src="docs/result of encoder decoder.png" alt="model architecture" width="60%" height="60%">
      <br>Fig.7 Result of Encoder-Decoder Model
 </p>
 
