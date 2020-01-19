@@ -77,6 +77,9 @@ To translate a whole sentence from English to Pig-Latin, we simply apply these r
 
 Since the translation to Pig Latin involves moving characters around in a string, we will use character-level recurrent neural networks for our model. Since English and Pig-Latin are structurally very similar, the translation task is almost a copy task; the model must remember each character in the input, and recall the characters in a specific order to produce the output.
 
+3.2 Encoder-Decoder Models
+----------
+
 
 
 
