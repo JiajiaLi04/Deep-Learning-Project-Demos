@@ -199,7 +199,7 @@ The generator in CycleGAN has layers that implement three stages of computation:
 </p>
 
 <p align="center">
-     <img src="docs/algorithm 2.png" alt="model architecture" width="100%" height="100%">
+     <img src="docs/alogorithm 2.png" alt="model architecture" width="100%" height="100%">
      <br> 
 </p>
 
