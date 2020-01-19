@@ -210,7 +210,7 @@ The generator in CycleGAN has layers that implement three stages of computation:
 </p>
 
 <p align="center">
-     <img src="docs/cyclegan result2.png" alt="model architecture" width="60%" height="60%">
+     <img src="docs/cylcegan result2.png" alt="model architecture" width="60%" height="60%">
      <br> Fig.19 Output Images of CycleGAN with the cycle-consistency loss in iteration 600
 </p>
 
