@@ -140,3 +140,22 @@ One of the benefits of using attention is that it allows us to gain insight into
      <br>Fig.12 Failed Attention Map
 </p>
 
+
+4.DCGAN and CycleGAN
+================
+4.1 Overview
+-------
+This task consists of two parts: in the first part, we will implement a specific type of GAN designed to process images, called a Deep Convolutional GAN (DCGAN). We will train the DCGAN to generate emojis from samples of random noise. In the second part, we will implement a more complex GAN archi- tecture called CycleGAN, which was designed for the task of image-to-image translation. We will train the CycleGAN to convert between Apple-style and Windows-style emojis.
+
+4.2 Deep Convolutional GAN (DCGAN)
+-------
+A DCGAN is simply a GAN that uses a convolutional neural network as the discriminator, and a network composed of transposed convolutions as the generator. To implement the DCGAN, we need to specify three things: 1) the generator, 2) the discriminator, and 3) the training procedure.
+
+The DCGAN discriminator is a convolutional neural network that has the following architecture:
+
+<p align="center">
+     <img src="docs/failed attention map.png" alt="model architecture" width="60%" height="60%">
+     <br>Fig.13 
+</p>
+
+
